@@ -112,6 +112,9 @@ Use Matplotlib, to create a visual representation of the binary maze. The colors
 ##### Updating the Visualization: 
 As the search algorithm runs, the current position and the set of visited cells will change. Update the plot in real-time to reflect these changes. Use `plt.pause(seconds)` with a chosen number of seconds to make the visualization smooth to follow.
 
+You can call your function `plot_maze()` with additional parameters with the updated state of your path finding at every step of your path finding. 
+Hint: your function stub is given a visited parameter, which the TA used to plot all visited (yellow) circles at every step, and the current node we are on. It is also recommended to pass in start and end points to plot them.
+
 The TA's output visualizations will soon be added as a reference!! Set appropriate aspect ratios, plot sizes, and other aesthetic parameters to ensure that the maze is easily interpretable.
 
 ## Evaluation
