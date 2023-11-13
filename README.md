@@ -118,7 +118,7 @@ Hint: your function stub is given a visited parameter, which the TA used to plot
 The TA's output visualizations will soon be added as a reference!! Set appropriate aspect ratios, plot sizes, and other aesthetic parameters to ensure that the maze is easily interpretable.
 
 Here is a sample of how the TAs output looks:
-[kartik_ref/maze1_visualized.png](kartik_ref/maze1_visualized.png)
+![kartik_ref/maze1_visualized.png](kartik_ref/maze1_visualized.png)
 
 ## Evaluation
 
