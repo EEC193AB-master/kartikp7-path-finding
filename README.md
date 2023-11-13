@@ -48,6 +48,27 @@ The '#' character represents walls. ' ' or space is available paths you can foll
 
 Please complete `read_maze()` to read the maze. You are encouraged to read it as a matrix.
 
+Here is the TA's output after reading maze1.txt, and also binarizing it (needed later for plotting)
+```
+Maze shape: (7, 9)
+Original Maze:
+[['#' '#' '#' '#' '#' '#' '#' '#' '#']
+ ['#' ' ' ' ' ' ' ' ' ' ' '#' '#' '#']
+ ['#' ' ' '#' '#' '#' ' ' '#' '#' '#']
+ ['#' ' ' '#' ' ' ' ' ' ' '#' '#' '#']
+ ['#' ' ' '#' '#' '#' ' ' '#' '#' '#']
+ ['#' 's' '#' '#' 'e' ' ' ' ' ' ' '#']
+ ['#' '#' '#' '#' '#' '#' '#' '#' '#']]
+Binarized Maze:
+[[1. 1. 1. 1. 1. 1. 1. 1. 1.]
+ [1. 0. 0. 0. 0. 0. 1. 1. 1.]
+ [1. 0. 1. 1. 1. 0. 1. 1. 1.]
+ [1. 0. 1. 0. 0. 0. 1. 1. 1.]
+ [1. 0. 1. 1. 1. 0. 1. 1. 1.]
+ [1. 0. 1. 1. 0. 0. 0. 0. 1.]
+ [1. 1. 1. 1. 1. 1. 1. 1. 1.]]
+```
+
 ### Directions / Moving in the maze
 
 To do path finding, once you read the maze you are only allowed to move in four directions: N,S,E,W. Diagonal movements are not allowed. All the weights per step are the same weight.
