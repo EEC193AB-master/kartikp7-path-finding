@@ -107,7 +107,7 @@ Use Matplotlib, to create a visual representation of the binary maze. The colors
 - Plot the end point in a contrasting color (e.g., red) to indicate the goal.
 - Plot the current position of the algorithm in a distinct color (e.g., blue) to show where the search is currently focused.
 - Plot all visited cells in another color (e.g., yellow) to track the search algorithm's progress.
-- Use `plt.plot(point_x, point_y, color)` given a coordinate (point_x,point_y) on your 2D matrix maze.
+- Use `plt.plot(point_x, point_y, shape_color)` given a coordinate (point_x,point_y) on your 2D matrix maze. if you use 'ro' as shape_color, a red circle will be plotted.
 
 ##### Updating the Visualization: 
 As the search algorithm runs, the current position and the set of visited cells will change. Update the plot in real-time to reflect these changes. Use `plt.pause(seconds)` with a chosen number of seconds to make the visualization smooth to follow.
@@ -116,6 +116,9 @@ You can call your function `plot_maze()` with additional parameters with the upd
 Hint: your function stub is given a visited parameter, which the TA used to plot all visited (yellow) circles at every step, and the current node we are on. It is also recommended to pass in start and end points to plot them.
 
 The TA's output visualizations will soon be added as a reference!! Set appropriate aspect ratios, plot sizes, and other aesthetic parameters to ensure that the maze is easily interpretable.
+
+Here is a sample of how the TAs output looks:
+[kartik_ref/maze1_visualized.png](kartik_ref/maze1_visualized.png)
 
 ## Evaluation
 
