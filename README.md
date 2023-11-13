@@ -68,6 +68,7 @@ Each search algorithm operates in a similar fashion. From a given cell (start), 
 You are provided with a function stub for `dijkstras_algorithm()`. Your implementation should find all possible directions you can move from the current location without hitting walls.
 - Use an appropriate data structure to keep track of the next position to visit based on the shortest distance found so far.
 - You must consider that the maze does not have weighted edges, and as such, the cost to move from one cell to the next is uniform.
+- Hint: Think about using a priority queue or heap!
 
 #### A* 
 You are provided with a function stub for `a_star_algorithm()`. Your implementation should utilize the Manhattan distance heuristic to estimate the distance from the current cell to the end cell.
